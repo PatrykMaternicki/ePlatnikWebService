@@ -6,10 +6,11 @@ import java.util.Date;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import domain.entity.PersonInfo.PersonInformation;
+
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
-
-import domain.entity.domainInfo.PersonInformation;
 
 public class PersonInformationTest {
 	

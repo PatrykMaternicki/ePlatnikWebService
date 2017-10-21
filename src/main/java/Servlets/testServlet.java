@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import domain.entity.Employee;
-import domain.entity.domainInfo.Person;
+import domain.entity.PersonInfo.Person;
 
 @WebServlet("/test")
 public class testServlet extends HttpServlet{

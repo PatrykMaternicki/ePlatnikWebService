@@ -8,7 +8,7 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import domain.entity.Employee;
-import domain.entity.domainInfo.Person;
+import domain.entity.PersonInfo.Person;
 @RunWith(MockitoJUnitRunner.class)
 public class employeeTest extends Mockito {
 

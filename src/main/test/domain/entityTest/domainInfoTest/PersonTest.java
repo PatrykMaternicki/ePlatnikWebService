@@ -9,9 +9,9 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import domain.entity.domainInfo.Address;
-import domain.entity.domainInfo.Person;
-import domain.entity.domainInfo.PersonInformation;
+import domain.entity.PersonInfo.Address;
+import domain.entity.PersonInfo.Person;
+import domain.entity.PersonInfo.PersonInformation;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;

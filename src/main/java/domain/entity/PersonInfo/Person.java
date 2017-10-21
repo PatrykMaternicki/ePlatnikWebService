@@ -1,4 +1,6 @@
-package domain.entity.domainInfo;
+package domain.entity.PersonInfo;
+
+import java.util.ArrayList;
 
 
 public class Person {
@@ -17,6 +19,8 @@ public class Person {
 	}
 	private Address adress = new Address();
 	private PersonInformation information = new PersonInformation();
+	private ArrayList<Education> educationList = new ArrayList<Education>();
+	
 	
 	
 }

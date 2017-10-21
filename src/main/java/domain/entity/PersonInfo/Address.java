@@ -1,4 +1,4 @@
-package domain.entity.domainInfo;
+package domain.entity.PersonInfo;
 
 public class Address {
 
