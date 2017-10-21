@@ -1,4 +1,4 @@
-package domain.Profile.infoProfile;
+package domain.entity.domainInfo;
 
 import java.util.Date;
 

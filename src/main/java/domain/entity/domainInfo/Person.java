@@ -1,9 +1,7 @@
-package domain.Profile;
+package domain.entity.domainInfo;
 
-import domain.Profile.infoProfile.Address;
-import domain.Profile.infoProfile.PersonInformation;
 
-abstract class Person {
+public class Person {
 
 	public Address getAdress() {
 		return adress;
@@ -17,8 +15,8 @@ abstract class Person {
 	public void setInformation(PersonInformation information) {
 		this.information = information;
 	}
-	private Address adress;
-	private PersonInformation information;
+	private Address adress = new Address();
+	private PersonInformation information = new PersonInformation();
 	
 	
 }

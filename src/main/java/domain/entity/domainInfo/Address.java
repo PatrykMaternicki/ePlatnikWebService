@@ -1,9 +1,8 @@
-package domain.Profile.infoProfile;
+package domain.entity.domainInfo;
 
 public class Address {
 
 	private String postalCode;
-	private String PESEL;
 	private String City;
 	private String Country;
 	private int flatNumber;
@@ -13,12 +12,6 @@ public class Address {
 	}
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
-	}
-	public String getPESEL() {
-		return PESEL;
-	}
-	public void setPESEL(String pESEL) {
-		PESEL = pESEL;
 	}
 	public String getCity() {
 		return City;
