@@ -2,8 +2,8 @@ package domain.entity.ContractInfo;
 
 public class Bonus {
 	private String typeBonus;
-	private float value;
-	private float percentBonus;
+	private Double value;
+	private Double percentBonus;
 	private String itemBonus;
 	public String getTypeBonus() {
 		return typeBonus;
@@ -11,16 +11,16 @@ public class Bonus {
 	public void setTypeBonus(String typeBonus) {
 		this.typeBonus = typeBonus;
 	}
-	public float getValue() {
+	public Double getValue() {
 		return value;
 	}
-	public void setValue(float value) {
+	public void setValue(Double value) {
 		this.value = value;
 	}
-	public float getPercentBonus() {
+	public Double getPercentBonus() {
 		return percentBonus;
 	}
-	public void setPercentBonus(float percentBonus) {
+	public void setPercentBonus(Double percentBonus) {
 		this.percentBonus = percentBonus;
 	}
 	public String getItemBonus() {

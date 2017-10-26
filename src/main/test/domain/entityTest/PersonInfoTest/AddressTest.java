@@ -1,12 +1,11 @@
-package domain.entityTest.domainInfoTest;
+package domain.entityTest.PersonInfoTest;
 
 import org.junit.Before;
 import org.junit.Test;
-
-import domain.entity.PersonInfo.Address;
-
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
+
+import domain.entity.PersonInfo.Address;
 public class AddressTest {
 
 	

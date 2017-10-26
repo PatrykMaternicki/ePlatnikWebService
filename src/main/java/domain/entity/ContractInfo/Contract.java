@@ -8,7 +8,7 @@ public class Contract {
 	private int freeDay;
 	private ContractProperties contractProperties = new ContractProperties();
 	private Bonus bonus = new Bonus();
-	private Float jobPosition;
+	private String jobPosition;
 	public String getTypeContract() {
 		return typeContract;
 	}
@@ -45,10 +45,10 @@ public class Contract {
 	public void setBonus(Bonus bonus) {
 		this.bonus = bonus;
 	}
-	public Float getJobPosition() {
+	public String getJobPosition() {
 		return jobPosition;
 	}
-	public void setJobPosition(Float jobPosition) {
+	public void setJobPosition(String jobPosition) {
 		this.jobPosition = jobPosition;
 	}
 	

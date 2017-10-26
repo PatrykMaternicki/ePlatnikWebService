@@ -2,7 +2,7 @@ package domain.entity.PersonInfo;
 
 public class Course {
 	private String nameCourse;
-	private String expiredTime;
+	private int expiredTime;
 	private boolean isRequiredToWork;
 	public String getNameCourse() {
 		return nameCourse;
@@ -10,10 +10,10 @@ public class Course {
 	public void setNameCourse(String nameCourse) {
 		this.nameCourse = nameCourse;
 	}
-	public String getExpiredTime() {
+	public int getExpiredTime() {
 		return expiredTime;
 	}
-	public void setExpiredTime(String expiredTime) {
+	public void setExpiredTime(int expiredTime) {
 		this.expiredTime = expiredTime;
 	}
 	public boolean isRequiredToWork() {

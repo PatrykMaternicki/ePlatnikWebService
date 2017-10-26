@@ -1,4 +1,4 @@
-package domain.entityTest.domainInfoTest;
+package domain.entityTest.PersonInfoTest;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

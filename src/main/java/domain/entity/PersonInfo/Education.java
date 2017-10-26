@@ -3,24 +3,24 @@ package domain.entity.PersonInfo;
 public class Education {
 
 	private String nameSchool;
-	private String startYear;
-	private String endYear;
+	private int startYear;
+	private int endYear;
 	public String getNameSchool() {
 		return nameSchool;
 	}
 	public void setNameSchool(String nameSchool) {
 		this.nameSchool = nameSchool;
 	}
-	public String getStartYear() {
+	public int getStartYear() {
 		return startYear;
 	}
-	public void setStartYear(String startYear) {
+	public void setStartYear(int startYear) {
 		this.startYear = startYear;
 	}
-	public String getEndYear() {
+	public int getEndYear() {
 		return endYear;
 	}
-	public void setEndYear(String endYear) {
+	public void setEndYear(int endYear) {
 		this.endYear = endYear;
 	}
 	

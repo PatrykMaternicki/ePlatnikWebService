@@ -1,4 +1,4 @@
-package domain.entityTest.domainInfoTest;
+package domain.entityTest.PersonInfoTest;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -38,6 +38,7 @@ public class PersonTest extends Mockito {
 	public void should_be_return_address_when_called_super_method_getAddress(){
 		when(person.getAdress()).thenReturn(address);
 	}
+
 	
 
 }
